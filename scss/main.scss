@@ -81,7 +81,7 @@ main {
     grid-gap: 30px;
     grid-template-areas:
         'bioimage bio bio'
-        'job1 job2 job3';
+        'acadmics1 acadmics2 acadmics3';
     grid-template-columns: repeat(3, 1fr);
 
     .bio-image {
@@ -95,19 +95,19 @@ main {
         grid-area: bio;
     }
 
-    .job1 {
-        grid-area: job1;
+    .acadmics1 {
+        grid-area: acadmics1;
     }
 
-    .job2 {
-        grid-area: job2;
+    .acadmics2 {
+        grid-area: acadmics2;
     }
 
-    .job3 {
-        grid-area: job3;
+    .acadmics3 {
+        grid-area: acadmics3;
     }
 
-    .job {
+    .acadmics {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
@@ -185,12 +185,14 @@ main {
     color: #333;
 }
 
-#main-footer {
-    text-align: center;
-    padding: 1rem;
-    background: darken($primary-color, 10);
-    color: set-text-color($primary-color);
-    height: 60px;
-}
+// #main-footer {
+//     bottom: 0;
+//     width: 100%;
+//     text-align: center;
+//     padding: 1rem;
+//     background: darken($primary-color, 10);
+//     color: set-text-color($primary-color);
+//     height: 60px;
+// }
 
 @import 'mobile';
